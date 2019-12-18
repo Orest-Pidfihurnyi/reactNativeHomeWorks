@@ -42,6 +42,7 @@ function RegisterScreen() {
           <View style={s.textContainer}>
             <AuthInput
               label="Email"
+              keyboardType="email-address"
               onChangeText={handleChange('email')}
               onBlur={handleBlur('email')}
               error={errors.email}

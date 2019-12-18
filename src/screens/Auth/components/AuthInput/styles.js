@@ -51,7 +51,7 @@ const s = StyleSheet.create({
   labelBackgroundLine: {
     position: 'absolute',
     zIndex: 2,
-    height: 2,
+    height: 3,
     top: -1,
     left: 16,
     backgroundColor: colors.white,

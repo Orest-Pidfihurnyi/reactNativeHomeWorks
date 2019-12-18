@@ -43,6 +43,7 @@ function LoginScreen() {
               label="Email"
               onChangeText={handleChange('email')}
               onBlur={handleBlur('email')}
+              keyboardType="email-address"
               error={errors.email}
               value={values.email}
             />
